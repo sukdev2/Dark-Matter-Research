@@ -1,120 +1,88 @@
 # Dark Matter Propagation in the Sun using Non-Relativistic Effective Field Theory (NR-EFT)
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
-![Physics](https://img.shields.io/badge/Field-Astroparticle%20Physics-green.svg)
+![Field](https://img.shields.io/badge/Field-Astroparticle%20Physics-green.svg)
+
+Numerical studies of heavy dark matter capture, scattering, propagation, thermalization, annihilation, and neutrino signals inside the Sun using the framework of **Non-Relativistic Effective Field Theory (NR-EFT)**.
+
+---
 
 ## Overview
 
-This repository contains the Python notebooks and numerical simulations developed during my **M.Sc. research in Astroparticle Physics**. The project investigates the propagation of heavy dark matter particles inside the Sun within the framework of **Non-Relativistic Effective Field Theory (NR-EFT)**.
+This repository contains the **Python/Jupyter Notebook implementations and numerical calculations developed during my M.Sc. research in Astroparticle Physics**.
 
-The study focuses on the complete evolution of solar dark matter, including gravitational capture, multiple scattering, orbital evolution, thermalization, annihilation, and the resulting neutrino flux. The calculations are performed using numerical methods and realistic solar models.
+The project investigates the evolution of heavy dark matter particles following their gravitational capture by the Sun. The calculations consider dark matter–nucleus scattering, propagation through the solar interior, orbital evolution, thermalization, and subsequent annihilation, with the resulting neutrino signal studied as a possible observable consequence.
+
+The numerical calculations use realistic solar-model data together with analytical expressions and theoretical results from the relevant published literature.
+
+The repository provides a structured record of the computational work associated with this research project and is intended to support reproducibility, further analysis, and future development.
 
 ---
 
 ## Research Project
 
-**Propagation of TeV–PeV Scale Dark Matter in the Sun within the Framework of Non-Relativistic Effective Field Theory (NR-EFT)**
+### Propagation of TeV–PeV Scale Dark Matter in the Sun within the Framework of Non-Relativistic Effective Field Theory (NR-EFT)
 
-**Research Area:** Astroparticle Physics • Dark Matter • Computational Physics
+**Research Area:** Astroparticle Physics · Dark Matter Phenomenology · Computational Physics
+
+The project focuses on the propagation and evolution of heavy dark matter inside the Sun, with particular emphasis on the effects of dark matter–nucleus interactions described within the NR-EFT framework.
 
 ---
 
 ## Scientific Objectives
 
-- Study the capture of heavy dark matter by the Sun
-- Compute dark matter–nucleus scattering rates using NR-EFT
-- Investigate dark matter propagation inside the solar interior
-- Calculate thermalization timescales for captured dark matter
-- Estimate annihilation rates after thermal equilibrium
-- Predict solar neutrino flux produced by dark matter annihilation
-- Compare numerical results with existing theoretical studies
+The main objectives of the project are:
+
+- Study the gravitational capture of heavy dark matter by the Sun.
+- Calculate dark matter–nucleus scattering rates within the NR-EFT framework.
+- Incorporate relevant nuclear response functions into the scattering calculations.
+- Investigate the propagation and orbital evolution of captured dark matter inside the Sun.
+- Study the thermalization of dark matter through repeated scattering.
+- Estimate the annihilation rate of thermalized dark matter.
+- Calculate the resulting solar neutrino flux.
+- Compare numerical results with theoretical studies available in the literature.
 
 ---
 
-## Physics Topics Covered
+## Physics Topics
 
-- Dark Matter Capture
+The repository covers numerical work related to:
+
+- Dark Matter Capture in the Sun
 - Non-Relativistic Effective Field Theory (NR-EFT)
-- Nuclear Response Functions
 - WIMP–Nucleus Scattering
+- Nuclear Response Functions
+- Solar Dark Matter
+- Dark Matter Propagation
+- Orbital Evolution
 - Thermalization
-- Annihilation
-- Solar Neutrino Flux
+- Dark Matter Annihilation
+- Solar Neutrino Signals
 - Numerical Integration
+- Scientific Computing
 
 ---
 
 ## Repository Structure
 
 ```text
-Dark-Matter-Propagation/
-
+Dark-Matter-Research/
+│
 ├── notebooks/
 │   ├── Capture_Rate.ipynb
 │   ├── Scattering.ipynb
-│   ├── Thermalization.ipynb
 │   ├── Propagation.ipynb
+│   ├── Thermalization.ipynb
 │   ├── Annihilation.ipynb
 │   └── Neutrino_Flux.ipynb
 │
-├── figures/
-│
 ├── data/
+│   └── ...
 │
-└── README.md
-```
-
----
-
-## Software and Libraries
-
-- Python
-- NumPy
-- SciPy
-- Matplotlib
-- Jupyter Notebook
-
----
-
-## Numerical Methods
-
-The simulations employ a range of numerical techniques, including:
-
-- Numerical integration
-- Interpolation of solar model data
-- Scientific visualization
-
----
-
-## Applications
-
-The notebooks can be used for
-
-- Dark matter phenomenology
-- Solar dark matter studies
-- Astroparticle physics research
-- Computational physics projects
-- Graduate-level research and education
-
----
-
-## Citation
-
-If you use this repository for research or educational purposes, please cite the relevant publications and acknowledge this repository where appropriate.
-
----
-
-## Author
-
-**Sukdev Mahapatra**
-
-M.Sc. Physics (Astroparticle Physics)
-
-Research Interests:
-- Dark Matter Physics
-- Astroparticle Physics
-- Cosmology
-- Scientific Computing
-
-GitHub: https://github.com/sukdevmahapatra/Dark-Matter-Research.git
+├── figures/
+│   └── ...
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
