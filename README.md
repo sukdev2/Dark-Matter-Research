@@ -32,10 +32,7 @@ The repository is intended to provide a structured record of the computational w
 The central objective of the project is to study the evolution of heavy dark matter after gravitational capture by the Sun, with particular emphasis on the scattering dynamics, orbital evolution, and thermalization of dark matter in the solar interior.
 
 The theoretical framework focuses primarily on the NR-EFT operators
-
-\beging{equation}
-\hat{O}_4,\qquad \hat{O}_8,\qquad \hat{O}_{15},
-\end{equation}
+Operator 4, 8 and 15
 
 which represent different types of dark matter–nucleon interactions involving spin, velocity, and momentum dependence. :contentReference[oaicite:1]{index=1}
 
