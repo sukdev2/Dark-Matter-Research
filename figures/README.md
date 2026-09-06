@@ -1,1 +1,1 @@
-This folder contains figures and plots generated from the analysis.
+## This folder contains figures and plots generated from the analysis.
