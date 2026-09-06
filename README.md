@@ -2,6 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![Field](https://img.shields.io/badge/Field-Astroparticle%20Physics-green.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/Status-Ongoing-yellow.svg)](#)
 
 Numerical study of heavy dark matter capture, propagation, and thermalization inside the Sun within the framework of **Non-Relativistic Effective Field Theory (NR-EFT)**.
@@ -18,8 +19,7 @@ inside the Sun, with emphasis on **NR-EFT dark matter–nucleus interactions**,
 orbital evolution, and thermalization.
 
 The study focuses on the **TeV–PeV dark matter mass regime**, where energy loss
-per scattering can be small, leading to inefficient thermalization and
-extended non-thermal orbits.
+per scattering can be small.
 
 ---
 
@@ -84,12 +84,8 @@ collaborators**.
 
 The BP2000 solar-model data provide radial solar-model quantities including
 density and chemical composition, which are used in the present capture-rate
-calculation.
-
-The original data sources should be appropriately acknowledged when these data
-are reused or redistributed.
-
-The third-party solar-model data files are **not relicensed under the MIT
+calculation. The original data sources should be appropriately acknowledged when these data
+are reused or redistributed. The third-party solar-model data files are **not relicensed under the MIT
 License of this repository** and remain subject to the terms and conditions of
 their original source.
 
@@ -113,13 +109,11 @@ It includes:
 - Element-by-element capture rates
 - Total capture rates
 
-The calculation is performed for 
+The calculation is performed for:
 
-$\hat{O}_4$, 
-
-$\hat{O}_8$, 
-
-$\hat{O}_{15}$
+- $\hat{O}_4$
+- $\hat{O}_8$
+- $\hat{O}_{15$
 
 with both **isoscalar** and **isovector** couplings.
 
@@ -190,9 +184,9 @@ in this project.
 
 DOI: [10.1088/1475-7516/2017/05/046](https://doi.org/10.1088/1475-7516/2017/05/046)
 
-This work provides the main reference for the subsequent propagation,
-scattering, orbital evolution, and thermalization study of captured dark matter
-inside the Sun.
+This work provides the main methodological reference for the subsequent
+propagation, scattering, orbital evolution, and thermalization study of
+captured dark matter inside the Sun.
 
 ---
 
@@ -220,4 +214,4 @@ on the work of Catena and Schwabe, while the subsequent propagation and
 thermalization methodology is guided by Widmark.
 
 All scientific results and interpretations presented in this repository are
-part of the ongoing M.Sc. research project.
+part of the ongoing research project.
