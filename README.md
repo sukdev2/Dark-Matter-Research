@@ -2,6 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)
 ![Field](https://img.shields.io/badge/Field-Astroparticle%20Physics-green.svg)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
 ![Status](https://img.shields.io/badge/Status-Ongoing-yellow.svg)
 
 Numerical study of heavy dark matter capture, propagation, and thermalization inside the Sun within the framework of **Non-Relativistic Effective Field Theory (NR-EFT)**.
