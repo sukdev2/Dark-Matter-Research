@@ -113,7 +113,7 @@ The calculation is performed for:
 
 - $\hat{O}_4$
 - $\hat{O}_8$
-- $\hat{O}_{15$
+- $\hat{O}_{15}$
 
 with both **isoscalar** and **isovector** couplings.
 
