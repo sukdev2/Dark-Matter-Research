@@ -102,6 +102,8 @@ Total
 
 *"Form factors for dark matter capture by the Sun in effective theories,"* Journal of Cosmology and Astroparticle Physics 
 
-**04 (2015) 042**. [arXiv:1501.03729](https://arxiv.org/abs/1501.03729) DOI: [10.1088/1475-7516/2015/04/042](https://doi.org/10.1088/1475-7516/2015/04/042) 
+**04 (2015) 042**. [arXiv:1501.03729](https://arxiv.org/abs/1501.03729) 
+
+DOI: [10.1088/1475-7516/2015/04/042](https://doi.org/10.1088/1475-7516/2015/04/042) 
 
 This work provides the nuclear response functions and formalism used to study dark matter capture in the Sun within the non-relativistic effective theory framework. It considers isoscalar and isovector dark matter–nucleon interactions and calculates nuclear response functions for the elements relevant to the solar capture process. The present capture-rate calculation follows this theoretical framework, with the implementation adapted to the solar-model data and numerical setup used in this project.
