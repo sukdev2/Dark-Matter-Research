@@ -11,7 +11,8 @@ Numerical study of heavy dark matter capture, propagation, and thermalization in
 
 ## Overview
 
-This repository contains the **Python/Jupyter Notebook calculations, numerical results, and analysis** developed during my M.Sc. research in Dark Matter Physics.
+This repository contains the **Python codes, numerical results, and analysis**
+developed during my M.Sc. research in Dark Matter Physics.
 
 The project studies the capture and subsequent evolution of heavy dark matter inside the Sun, with emphasis on **NR-EFT dark matter–nucleus interactions**, orbital evolution, and thermalization.
 
