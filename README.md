@@ -45,7 +45,7 @@ Dark matter particles passing through the Sun can lose kinetic energy through sc
 
 For conventional WIMP masses, repeated scattering can eventually bring the captured dark matter population toward thermal equilibrium with the solar medium. However, for sufficiently heavy dark matter, the fractional energy loss in an individual scattering event becomes small.
 
-Consequently:
+Consequently :
 
 - capture can occur without rapid thermalization,
 - dark matter can remain on extended non-thermal orbits,
