@@ -1,7 +1,6 @@
 # Dark Matter Propagation in the Sun using Non-Relativistic Effective Field Theory (NR-EFT)
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
 ![Field](https://img.shields.io/badge/Field-Astroparticle%20Physics-green.svg)
 ![Status](https://img.shields.io/badge/Status-Ongoing-yellow.svg)
 
@@ -14,9 +13,13 @@ Numerical study of heavy dark matter capture, propagation, and thermalization in
 This repository contains the **Python codes, numerical results, and analysis**
 developed during my M.Sc. research in Dark Matter Physics.
 
-The project studies the capture and subsequent evolution of heavy dark matter inside the Sun, with emphasis on **NR-EFT dark matter–nucleus interactions**, orbital evolution, and thermalization.
+The project studies the capture and subsequent evolution of heavy dark matter
+inside the Sun, with emphasis on **NR-EFT dark matter–nucleus interactions**,
+orbital evolution, and thermalization.
 
-The study focuses on the **TeV–PeV dark matter mass regime**, where energy loss per scattering can be small, leading to inefficient thermalization and extended non-thermal orbits.
+The study focuses on the **TeV–PeV dark matter mass regime**, where energy loss
+per scattering can be small, leading to inefficient thermalization and
+extended non-thermal orbits.
 
 ---
 
@@ -42,7 +45,8 @@ The present study focuses on:
 - $\hat{O}_8$ — velocity-dependent interaction
 - $\hat{O}_{15}$ — momentum- and velocity-dependent interaction
 
-Different operators produce different scattering rates through their corresponding nuclear response functions.
+Different operators produce different scattering rates through their
+corresponding nuclear response functions.
 
 ---
 
@@ -53,7 +57,9 @@ The current implementation uses:
 - **BP2000**
 - **AGSS09**
 
-The solar-model data provide the radial profiles required for the capture calculation, including density, elemental abundances, enclosed mass, and escape velocity.
+The solar-model data provide the radial profiles required for the capture
+calculation, including density, elemental abundances, enclosed mass, and
+escape velocity.
 
 ---
 
@@ -65,13 +71,34 @@ The current capture calculation includes:
 - Iron (Fe)
 - Phosphorus (P)
 
-Individual capture rates are calculated for each element and combined to obtain the **total capture rate**.
+Individual capture rates are calculated for each element and combined to obtain
+the **total capture rate**.
+
+---
+
+## Data Sources
+
+The solar-model data used in this project are obtained from publicly available
+solar-neutrino research resources associated with **John N. Bahcall and
+collaborators**.
+
+The BP2000 solar-model data provide radial solar-model quantities including
+density and chemical composition, which are used in the present capture-rate
+calculation.
+
+The original data sources should be appropriately acknowledged when these data
+are reused or redistributed.
+
+The third-party solar-model data files are **not relicensed under the MIT
+License of this repository** and remain subject to the terms and conditions of
+their original source.
 
 ---
 
 ## Capture Rate Calculation
 
-The current **capture-rate calculation is the completed and structured part of the repository**.
+The current **capture-rate calculation is the completed and structured part of
+the repository**.
 
 It includes:
 
@@ -86,25 +113,104 @@ It includes:
 - Element-by-element capture rates
 - Total capture rates
 
-The calculation is performed for $\hat{O}_4$, $\hat{O}_8$, and $\hat{O}_{15}$ with both **isoscalar** and **isovector** couplings.
+The calculation is performed for $\hat{O}_4$, $\hat{O}_8$, and $\hat{O}_{15}$
+with both **isoscalar** and **isovector** couplings.
 
 Results are stored separately for:
 
-H
-Fe
-P
-Total
+- H
+- Fe
+- P
+- Total
 
-## Key Research References The theoretical framework and numerical methodology of this project are primarily based on the following studies. 
+---
 
-### 1. NR-EFT Dark Matter Capture and Nuclear Response Functions 
+## Current Status
 
-**R. Catena and B. Schwabe**, 
+| Component | Status |
+|---|---|
+| Solar-model implementation | Completed |
+| NR-EFT scattering | Completed |
+| Nuclear response functions | Completed |
+| Solar capture calculation | Completed |
+| Capture-rate results | Available |
+| Dark matter propagation | Ongoing |
+| Monte Carlo orbital evolution | Ongoing |
+| Thermalization | Ongoing |
+| Non-thermal distribution | Ongoing |
+| Dark matter annihilation | Ongoing |
+| Neutrino flux | Ongoing |
+| Full numerical validation | Ongoing |
 
-*"Form factors for dark matter capture by the Sun in effective theories,"* Journal of Cosmology and Astroparticle Physics 
+---
 
-**04 (2015) 042**. [arXiv:1501.03729](https://arxiv.org/abs/1501.03729) 
+## Key Research References
 
-DOI: [10.1088/1475-7516/2015/04/042](https://doi.org/10.1088/1475-7516/2015/04/042) 
+The theoretical framework and numerical methodology of this project are
+primarily based on the following studies.
 
-This work provides the nuclear response functions and formalism used to study dark matter capture in the Sun within the non-relativistic effective theory framework. It considers isoscalar and isovector dark matter–nucleon interactions and calculates nuclear response functions for the elements relevant to the solar capture process. The present capture-rate calculation follows this theoretical framework, with the implementation adapted to the solar-model data and numerical setup used in this project.
+### 1. NR-EFT Dark Matter Capture and Nuclear Response Functions
+
+**R. Catena and B. Schwabe**
+
+*"Form factors for dark matter capture by the Sun in effective theories,"*
+
+*Journal of Cosmology and Astroparticle Physics*, **04 (2015) 042**.
+
+[arXiv:1501.03729](https://arxiv.org/abs/1501.03729)
+
+DOI: [10.1088/1475-7516/2015/04/042](https://doi.org/10.1088/1475-7516/2015/04/042)
+
+This work provides the nuclear response functions and formalism used to study
+dark matter capture in the Sun within the non-relativistic effective theory
+framework. It considers isoscalar and isovector dark matter–nucleon
+interactions and calculates nuclear response functions for the elements
+relevant to the solar capture process.
+
+The present capture-rate calculation follows this theoretical framework, with
+the implementation adapted to the solar-model data and numerical setup used
+in this project.
+
+### 2. Dark Matter Propagation and Thermalization
+
+**A. Widmark**
+
+*"Thermalization time scales for WIMP capture by the Sun in effective theories,"*
+
+*Journal of Cosmology and Astroparticle Physics*, **05 (2017) 046**.
+
+[arXiv:1703.06878](https://arxiv.org/abs/1703.06878)
+
+DOI: [10.1088/1475-7516/2017/05/046](https://doi.org/10.1088/1475-7516/2017/05/046)
+
+This work provides the main reference for the subsequent propagation,
+scattering, orbital evolution, and thermalization study of captured dark matter
+inside the Sun.
+
+---
+
+## License
+
+The original Python code developed in this repository is released under the
+**MIT License**.
+
+Third-party data, software, and scientific publications are **not covered by
+this license** and remain subject to their respective original terms and
+conditions.
+
+See the `LICENSE` file for the complete MIT License text.
+
+---
+
+## Acknowledgements
+
+The solar-model data used in this project originate from publicly available
+solar-neutrino research resources associated with John N. Bahcall and
+collaborators.
+
+The theoretical framework and nuclear response formalism are based primarily
+on the work of Catena and Schwabe, while the subsequent propagation and
+thermalization methodology is guided by Widmark.
+
+All scientific results and interpretations presented in this repository are
+part of the ongoing M.Sc. research project.
