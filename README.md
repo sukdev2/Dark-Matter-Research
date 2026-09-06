@@ -33,9 +33,9 @@ The central objective of the project is to study the evolution of heavy dark mat
 
 The theoretical framework focuses primarily on the NR-EFT operators
 
-$\hat{\mathcal O}_4$, $\hat{\mathcal O}_8$, $\hat{\mathcal O}_15$
+$\hat{\mathcal O}_4$, $\hat{\mathcal O}_8$, $\hat{\mathcal O}_{15}$
 
-which represent different types of dark matter–nucleon interactions involving spin, velocity, and momentum dependence. :contentReference[oaicite:1]{index=1}
+which represent different types of dark matter–nucleon interactions involving spin, velocity, and momentum dependence.
 
 ---
 
