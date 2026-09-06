@@ -27,8 +27,7 @@ The repository is intended to provide a structured record of the computational w
 
 ### Propagation of TeV–PeV Scale Dark Matter in the Sun within the Framework of Non-Relativistic Effective Field Theory (NR-EFT)
 
-**Research Area:**  
-Astroparticle Physics · Dark Matter Phenomenology · Non-Relativistic Effective Field Theory · Computational Physics
+**Research Area:** Astroparticle Physics · Dark Matter Phenomenology · Non-Relativistic Effective Field Theory · Computational Physics
 
 The central objective of the project is to study the evolution of heavy dark matter after gravitational capture by the Sun, with particular emphasis on the scattering dynamics, orbital evolution, and thermalization of dark matter in the solar interior.
 
