@@ -114,7 +114,12 @@ It includes:
 - Element-by-element capture rates
 - Total capture rates
 
-The calculation is performed for $\hat{O}_4$, $\hat{O}_8$, and $\hat{O}_{15}$
+The calculation is performed for 
+$\hat{O}_4$, 
+
+$\hat{O}_8$, and 
+
+$\hat{O}_{15}$
 with both **isoscalar** and **isovector** couplings.
 
 Results are stored separately for:
